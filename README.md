@@ -1,4 +1,6 @@
-##Set up:
+## Next.js Todo App with auth and user roles
+
+## Set up:
 
 eslint
 stylelint
