@@ -1,10 +1,10 @@
-import React from "react";
-import styled from 'styled-components';
-import Head from 'next/head'
+import React, { FC } from "react";
+import styled from "styled-components";
+import Head from "next/head";
 
-import Menu from 'src/components/Menu';
-import Footer from 'src/components/Footer';
-import { GlobalStyles } from 'src/styles/GlobalStyles';
+import Menu from "src/components/Menu";
+import Footer from "src/components/Footer";
+import { GlobalStyles } from "src/styles/GlobalStyles";
 
 const Main = styled.main`
 	max-width: 1216px;
@@ -19,11 +19,11 @@ const Main = styled.main`
 `;
 
 const Header = styled.header`
-	background: #CECECE;
+	background: #cecece;
 	padding: 1.2rem 0;
 `;
 
-const Layout = ({ children }) => (
+const Layout: FC = ({ children }) => (
 	<>
 		<Head>
 			<title>Auth app</title>
@@ -53,9 +53,7 @@ const Layout = ({ children }) => (
 		<Header>
 			<Menu />
 		</Header>
-		<Main>
-			{children}
-		</Main>
+		<Main>{children}</Main>
 		<Footer />
 		<GlobalStyles />
 	</>
