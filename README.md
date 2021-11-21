@@ -1,7 +1,6 @@
-## Next.js Todo App with auth and user roles
-
 ## Set up:
-
+Next.js
+TS
 eslint
 stylelint
 stylelint + styled-components
