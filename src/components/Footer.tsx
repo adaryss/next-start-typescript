@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const Wrapper = styled.footer`
 	width: 100%;
@@ -12,10 +12,6 @@ const Wrapper = styled.footer`
 	line-height: 1.3;
 `;
 
-const Footer = () => (
-	<Wrapper>
-		This is footer
-	</Wrapper>
-);
+const Footer = () => <Wrapper>Footer</Wrapper>;
 
 export default Footer;

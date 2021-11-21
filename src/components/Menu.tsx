@@ -1,10 +1,10 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
-import Link from 'next/link';
+import Link from "next/link";
 
 const NavigationWrapper = styled.nav`
-	background: #CECECE;
+	background: #cecece;
 	width: 100%;
 `;
 
